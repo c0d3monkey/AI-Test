@@ -12,13 +12,13 @@ DELETE FROM Products;
 DELETE FROM Categories;
 DELETE FROM Comments;
 
-.import DB_Scripts/datafiles/customers.txt Customers
-.import DB_Scripts/datafiles/customerlogin.txt CustomerLogin
-.import DB_Scripts/datafiles/securityquestions.txt SecurityQuestions
-.import DB_Scripts/datafiles/employees.txt Employees
-.import DB_Scripts/datafiles/offices.txt Offices
-.import DB_Scripts/datafiles/orderdetails.txt OrderDetails
-.import DB_Scripts/datafiles/orders.txt Orders
-.import DB_Scripts/datafiles/payments.txt Payments
-.import DB_Scripts/datafiles/categories.txt Categories
-.import DB_Scripts/datafiles/products.txt Products
+.import /var/www/webgoat.net/DB_Scripts/datafiles/customers.txt Customers
+.import /var/www/webgoat.net/DB_Scripts/datafiles/customerlogin.txt CustomerLogin
+.import /var/www/webgoat.net/DB_Scripts/datafiles/securityquestions.txt SecurityQuestions
+.import /var/www/webgoat.net/DB_Scripts/datafiles/employees.txt Employees
+.import /var/www/webgoat.net/DB_Scripts/datafiles/offices.txt Offices
+.import /var/www/webgoat.net/DB_Scripts/datafiles/orderdetails.txt OrderDetails
+.import /var/www/webgoat.net/DB_Scripts/datafiles/orders.txt Orders
+.import /var/www/webgoat.net/DB_Scripts/datafiles/payments.txt Payments
+.import /var/www/webgoat.net/DB_Scripts/datafiles/categories.txt Categories
+.import /var/www/webgoat.net/DB_Scripts/datafiles/products.txt Products
